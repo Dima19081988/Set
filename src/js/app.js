@@ -21,8 +21,8 @@ export class Team {
         for (const character of characters) {
             if (!this.members.has(character)) {
                 this.members.add(character);
-            };
-        };
+            }
+        }
     }
 
     toArray() {
